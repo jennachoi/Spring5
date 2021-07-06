@@ -1,6 +1,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
 <html>
 <head>
 <title>Spring Form</title>
@@ -70,7 +71,7 @@
 				<a href="api/member">회원목록(JSON-RestController)</a>
 			</h3>
 		</div>
-
+			<span><spring:message code="main" text="*"/></span>
 		<div id="list"></div>
 	</div>
 </body>
